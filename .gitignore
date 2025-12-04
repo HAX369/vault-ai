@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.webpack/
+
+# Electron
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Database files (encrypted local data)
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Encryption keys (NEVER commit these)
+*.key
+*.pem
+keys/
+secrets/
+
+# User data (privacy-critical)
+user-data/
+conversations/
+documents/
+backups/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Ollama models (too large for git)
+models/
+*.gguf
+
+# Logs
+logs/
+*.log
